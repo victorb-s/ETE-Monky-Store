@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Quantify';
+    src: url('fonts/Quantify.ttf');
+}
+
+.footer{
+        background-color: #5a330e;
+        box-shadow: 0 0 4px black;
+        min-height: 200px;
+    
+        text-decoration: none;
+        font-family: Quantify;
+}   
+    
+.table{
+            border-collapse: collapse;
+            width: 100%;
+            vertical-align: middle;
+        align-content: center;
+}
+    
+.logoinsta{
+        height: 24px;
+        width: 24px;
+        border: 0;
+}
+    
+table, th, td {
+        border: 0;
+        border-collapse: collapse;
+}
+th, td {
+        color: #f7d18b;
+        filter: drop-shadow(1px 1px 1px black);
+    
+        padding-top: 1rem;
+        padding-bottom: 0px;
+        padding-left: 150px;
+        padding-right: 150px;
+}
+    
+.footer-logo>img{
+        padding-left: 46%;
+        width: 6rem;
+}

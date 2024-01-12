@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'Quantify';
+    src: url('fonts/Quantify.ttf');
+}
+
+@font-face {
+    font-family: 'Amaranth-Regular';
+    src: url('fonts/Amaranth-Regular.ttf')
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #ffc760;
+    background-image: linear-gradient(#ffc760,rgb(255, 123, 0));
+}
+
+.bodycontent {
+    flex-grow: 1;
+    min-height: 700px;
+}
+
+.gostar>h3{
+    font-size: 2rem;
+    font-family: Quantify;
+    color: #2b1202;
+
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+
+.elegosta{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+.recomenda{
+    height: 300px;
+    width: 200px;
+}
+
+.recomenda:hover{
+    filter: drop-shadow(1px 1px 1px black);
+    transition: .2s;
+}
+
+.produto{
+    display: flex;
+    justify-content: space-around;
+
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.imagem{
+    display: flex;
+    flex-direction: column;
+}
+
+.infos{
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 1rem;
+}
+
+.desc{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-hover{
+    min-height: 45px;
+    width: 200px;
+    border-radius: 30px;
+    border: 0px none white;
+    background-color: rgb(255, 56, 56);
+    font-family: "Gamja Flower", cursive;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+}
+
+.btn-hover:hover{
+    filter: drop-shadow(1px 1px 1px black);
+    transition: .2s;
+}
+
+.titu>h1{
+    font-family: Amaranth-Regular;
+    font-size: 2rem;
+}
+
+.preço>h3{
+    font-family: Amaranth-Regular;
+    font-size: 3rem;
+    padding-bottom: 4rem;
+}
+
+.star{
+    height: 60px;
+    width: 125px;
+}
+
+.joanninha{
+    filter: drop-shadow(1px 1px 1px black);
+}
+
+.desc{
+    font-family: Amaranth-Regular;
+    font-size: 20px;
+    padding-top: 5rem;
+}

@@ -1,0 +1,87 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #ffc760;
+    background-image: linear-gradient(#ffc760,rgb(255, 123, 0));
+}
+
+.bodycontent {
+    flex-grow: 1;
+    min-height: 600px;
+}
+
+.loja>p{
+    font-size: 14px;
+}
+
+.loja>img{
+    width: 40rem;
+    
+}
+
+
+
+.loja>h1{
+    font-size: 3rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+
+    font-family: Quantify;
+    color: #2e1505;
+
+}
+
+.loja>p{
+    font-size: 1rem;
+    color: #ffff;
+    padding-left: 3rem;
+    filter: drop-shadow(1px 1px 1px black);
+}
+
+
+.column1>img{
+    padding-left: 1rem;
+    width: 14rem;
+}
+
+.button-produtos>a{
+
+    align-items: center;
+
+    padding: 10px;
+    border-radius: 33px;
+    margin: 33px;
+
+    font-size: 20px;
+    text-align: center;
+    font-family: Quantify;
+    color: #79451a;
+
+    background-color: #f1ad2c;
+
+    filter: drop-shadow(2px 2px 2px #2b2929);
+    
+}
+
+.button-produtos>a:hover{
+    background-color: #79451a;
+    color: #f1ad2c ;
+
+    padding: 10px;
+    border-radius: 33px;
+    margin: 33px;
+    
+}
+
+.placa>img{
+    position: absolute;
+    right: 20px;
+    bottom: 5px;
+    width: 25rem;
+    height: 25rem;
+}

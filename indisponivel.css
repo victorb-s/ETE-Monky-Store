@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Quantify';
+    src: url('fonts/Quantify.ttf');
+}
+
+@font-face {
+    font-family: 'Amaranth-Regular';
+    src: url('fonts/Amaranth-Regular.ttf')
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #ffc760;
+    background-image: linear-gradient(#ffc760,rgb(255, 123, 0));
+}
+
+.bodycontent {
+    flex-grow: 1;
+    min-height: 700px;
+}
+
+.txt>h1{
+    font-size: 3rem;
+    font-family: Quantify;
+    color: #2b1202;
+
+    padding-left: 19rem;
+    padding-top: 1rem;
+}
+
+.textinho>p{
+    font-size: 1rem;
+    color: #ffff;
+    padding-left: 20rem;
+    filter: drop-shadow(1px 1px 1px black);
+}
+
+.ruffy{
+    padding-left: 25rem;
+    padding-top: 3rem;
+}

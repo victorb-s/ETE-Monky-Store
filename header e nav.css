@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'Nostrud';
+    src: url('fonts/NOSTRUD.ttf');
+  }
+
+@font-face {
+    font-family: 'Quantify';
+    src: url('fonts/Quantify.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo>img{
+    width: 80px;
+    margin: 0;
+    line-height: 33px;
+    
+}
+
+header{
+    background-color: #e69500;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 10px;
+    box-shadow: 0 0 4px black;
+}
+
+.name>h1{
+    padding: 15px;
+    font-family: NOSTRUD;
+    color:#522203;
+    margin: 0;
+
+}
+
+ul{
+    display: flex;
+    margin: 23px;
+}
+
+li{
+    list-style-type: none;
+    cursor: pointer;
+    padding-left: 2rem;
+
+}
+
+a{
+    font-size: 15px;
+    color: #723d1c;
+    font-family: Quantify;
+    text-decoration: none;
+}
+
+.search-box{
+    position: relative;
+    top: 28%;
+    left: 5%;
+    transform: translate(-4%,-8%);
+
+    background: white;
+    height: 40px;
+    border-radius: 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.search-text{
+    background: none;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    padding-left: 1rem;
+
+}
+
+.search-btn{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(1px 1px 1px black);
+}
+
+.loupe-yellow{
+    width: 20px;
+    padding-right: 3rem;
+}
+
+.name>a>h1{
+    padding: 15px;
+    font-family: NOSTRUD;
+    color:#522203;
+    margin: 0;
+
+}
+
+
+.links>ul>li>a:hover{
+    color: #ffc760;
+    filter: drop-shadow(1px 1px 1px black);
+    transition: .2s;
+}
+
+a{
+    font-size: 15px;
+    color: #632f0f;
+    font-family: Quantify;
+    text-decoration: none;
+    filter: drop-shadow(.5px .5px .5px black);
+}
