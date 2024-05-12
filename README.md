@@ -12,7 +12,13 @@
 - CSS Intermediário;
 - Design de funções como barra de pesquisa e página de produtos;
 - Primeiro projeto de loja desenvolvido.
-
+  
+<div style="display: inline_block"><br>
+  <img align="center" alt="HTML" heigth="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg">
+  <img align="center" alt="CSS" heigth="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg">
+  <!--img align="center" alt="JS" heigth="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"-->
+</div>
+  
 ## 🌐 Autor
 ---
 <br>
