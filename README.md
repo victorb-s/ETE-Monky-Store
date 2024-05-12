@@ -3,10 +3,15 @@
 # 📒 Documentação do Projeto
 
 <p align="justify">
-  - Primeiro 
+  - Primeiro projeto colaborativo e de maior escala realizado na minha disciplina Design de Interfaces, durante meu curso técnico. Realizamos a colaboração sem conhecimento de ferramentas específicas para isto, porém conseguimos manter uma comunicação boa e realizar tudo que pretendíamos sem grandes dificuldades.
+
+  Monky Store foi também meu primeiro projeto de loja a ser desenvolvido, na época foi um grande avanço para minhas habilidades e para meu interesse pela área, pois não havia feito nenhum site minimamente apresentável como este anteriormente, por isso considero um projeto muito especial e importante para mim.
 </p>
 
-- JavaScript básico
+- Carrossel de imagens;
+- CSS Intermediário;
+- Design de funções como barra de pesquisa e página de produtos;
+- Primeiro projeto de loja desenvolvido.
 
 ## 🌐 Autor
 ---
